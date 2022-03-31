@@ -1,0 +1,57 @@
+#1
+price_list = [32100, 32150, 32000, 32500]
+
+for i in range(len(price_list)):
+    print(i, end=' ')
+    print(price_list[i])
+
+#2
+for x in range(1, 4):
+    print(90+10*x, price_list[x])
+
+#3
+for i in range(2002, 2050+1, 4):
+    print(i)
+
+#4
+for i in range(0, 10):
+    print("0.",i,sep="")
+
+#5
+ticker = "btc_krw"
+print(ticker.upper())
+
+#6
+file_name = "보고서.xlsx"
+suffix = "xlsx"
+print(file_name.endswith(suffix))
+
+#7
+a = "hello world"
+print(a.split())
+
+#8
+date = "2020-05-01"
+print(date.split('-'))
+
+#9
+상장주식수 = "5,969,782,550"
+print(상장주식수.replace(",",""))
+
+#10
+a = "hello world"
+print(a.split())
+
+#11
+price = ['20180728', 100, 130, 140, 150, 160, 170]
+print(price[1:])
+
+#12
+nums = [1,2,3,4,5,6,7,8,9,10]
+print(nums[1::2])
+
+#13
+리스트 = [3, 100, 23, 44]
+for i in range(len(리스트)):
+    if 리스트[i]%3==0:
+       print(리스트[i])
